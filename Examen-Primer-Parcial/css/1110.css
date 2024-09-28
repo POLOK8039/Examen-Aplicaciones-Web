@@ -1,0 +1,178 @@
+body {
+    background: #1b1b1b;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 200px 200px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding: 100px 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+}
+
+.logo {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.logo img {
+    width: 50%;
+    height: auto;
+}
+
+.portada {
+    text-align: center;
+}
+
+.portada img {
+    width: 70%;
+    height: auto;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+}
+
+button svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    fill: white;
+}
+
+.contenido p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.indi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.indi img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.subcontenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subcontenido div {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.subcontenido h2,
+.subcontenido h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.subcontenido button {
+    display: block;
+    margin: 0 auto;
+}
+
+.subcontenido img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dosimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dosimg div {
+    flex: 0 1 auto;
+}
+
+.dosimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+ a {
+    text-decoration: none;
+    outline: none;
+}
+
+footer svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    margin: 0 50px;
+}
+
+.empresas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem auto;
+    max-width: 960px;
+}
+
+.empresas a {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.empresas img {
+    max-width: 100%;
+    height: auto;
+}
